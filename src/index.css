@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+@media (max-width: 1920) {
+  html { font-size: 24px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 12px; }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
